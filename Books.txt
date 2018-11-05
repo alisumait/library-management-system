@@ -1,0 +1,8 @@
+Book Sci fi,TTT355,Steve,Publishers,Book Sci fi - Borrowed,Book Sci fi
+The Hobbits,ASA245,Steven,P Publishers,The Hobbits - Borrowed,The Hobbits
+Mastery,RRR242,John,M Publishers,Mastery - Borrowed,Mastery
+Zero To One,ZZZ245,Peter,Virgin Publishers,Zero To One - Borrowed,Zero To One
+The Hulk,DD2354,Barry,Virgins Publishers,The Hulk - Borrowed,The Hulk
+Book Of Life,ADD342,Sam,V publishers,Book Of Life - Borrowed,Book Of Life
+da,ds,dsfa,dsfvd,da - Borrowed,da
+as,d,fxds,fsf,as - Available,as

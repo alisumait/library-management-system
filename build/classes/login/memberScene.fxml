@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.memberSceneController">
+   <left>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="159.0" prefWidth="323.0" BorderPane.alignment="CENTER">
+         <children>
+            <TabPane layoutX="-2.0" layoutY="-1.0" prefHeight="726.0" prefWidth="349.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Profile">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="687.0" prefWidth="239.0">
+                           <children>
+                              <Button fx:id="update" layoutX="111.0" layoutY="515.0" mnemonicParsing="false" onAction="#Updatep" prefHeight="31.0" prefWidth="128.0" text="Update Profile" />
+                              <TextField fx:id="puser" layoutX="106.0" layoutY="264.0" />
+                              <TextField fx:id="ppass" layoutX="106.0" layoutY="344.0" />
+                              <TextField fx:id="pemail" layoutX="106.0" layoutY="420.0" />
+                              <Label layoutX="52.0" layoutY="93.0" text="Your Profile:">
+                                 <font>
+                                    <Font name="System Bold" size="40.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="80.0" layoutY="166.0" text="Just edit the information ">
+                                 <font>
+                                    <Font size="17.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="89.0" layoutY="192.0" text="to Upadte your profile!">
+                                 <font>
+                                    <Font size="17.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="22.0" layoutY="269.0" prefHeight="21.0" prefWidth="77.0" text="Username:" />
+                              <Label layoutX="21.0" layoutY="349.0" text="Password:" />
+                              <Label layoutX="32.0" layoutY="425.0" text="E-mail:" />
+                              <Label fx:id="uplabel" alignment="CENTER" layoutX="17.0" layoutY="577.0" prefHeight="21.0" prefWidth="306.0" textFill="#00c347">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                  <Tab text="Books">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Label layoutX="85.0" layoutY="158.0" text="Borrow and search ">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="search" layoutX="98.0" layoutY="359.0" mnemonicParsing="false" onAction="#searchMethod" text="Search and Borrow!" />
+                              <Label layoutX="85.0" layoutY="205.0" text="For a book in here:">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                           </children></AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab text="Membership">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Label alignment="CENTER" layoutX="30.0" layoutY="106.0" prefHeight="74.0" prefWidth="294.0" text="Your account was created at:">
+                                 <font>
+                                    <Font size="22.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="pdate" layoutX="122.0" layoutY="221.0" prefHeight="28.0" prefWidth="105.0" text="12/13/2016">
+                                 <font>
+                                    <Font size="19.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="15.0" layoutY="328.0" prefHeight="44.0" prefWidth="324.0" text="And your Membership">
+                                 <font>
+                                    <Font size="22.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="119.0" layoutY="372.0" text=" will end at:">
+                                 <font>
+                                    <Font size="22.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="exdate" layoutX="123.0" layoutY="453.0" prefHeight="28.0" prefWidth="104.0" text="12/13/2017">
+                                 <font>
+                                    <Font size="19.0" />
+                                 </font>
+                              </Label>
+                              <Button layoutX="60.0" layoutY="564.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="230.0" text="Renew Membership for a year!" />
+                           </children></AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab text="About">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                    </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <SplitPane dividerPositions="0.575208913649025" orientation="VERTICAL" prefHeight="720.0" prefWidth="934.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="292.0" layoutY="112.0" prefHeight="52.0" prefWidth="348.0" text="Welcome!" textFill="#59b1ff">
+                     <font>
+                        <Font name="Arial Unicode MS" size="53.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <AnchorPane layoutX="584.0" layoutY="173.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="42.0" prefWidth="85.0" />
+                  <Button fx:id="backy" layoutX="806.0" layoutY="229.0" mnemonicParsing="false" onAction="#homy" text="Log out" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </right>
+</BorderPane>

@@ -1,0 +1,45 @@
+Members Information:
+
+ovgr,123ss,ovgr@gmail.com,ovgr
+ahmedaa,1234,ahmed@gmail.com,ahmedaaa
+oj;o,o;k,;okok,oj;o
+
+--------------------------------------------------------------------------------
+Books Information:
+
+Book Sci fi,TTT355,Steve,Publishers,Book Sci fi - Available,Book Sci fi
+The Hobbits,ASA245,Steven,P Publishers,The Hobbits - Borrowed,The Hobbits
+Mastery,RRR242,John,M Publishers,Mastery - Borrowed,Mastery
+Zero To One,ZZZ245,Peter,Virgin Publishers,Zero To One - Available,Zero To One
+The Hulk,DD2354,Barry,Virgins Publishers,The Hulk - Available,The Hulk
+Book Of Life,ADD342,Sam,V publishers,Book Of Life - Available,Book Of Life
+aof,okeokd,okdow,okdwxx,aof - Available,aof
+
+--------------------------------------------------------------------------------
+Librarians Information:
+
+steve,jobs,steve@gmail.com,steve
+omar,salem,omar@gmail.com,omar
+
+--------------------------------------------------------------------------------
+Steve's Attendance:
+
+steve Clocked-In at 2016/12/16 08:04:52
+steve Clocked-In at 2016/12/16 08:04:53
+---------------------------------------------------------------------
+steve Clocked-In at 2016/12/16 11:23:47
+steve Clocked-Out at 2016/12/16 11:23:49
+---------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Omar's Attendance:
+
+omar Clocked-In at 2016/12/16 08:04:23
+omar Clocked-In at 2016/12/16 08:04:24
+---------------------------------------------------------------------
+omar Clocked-In at 2016/12/16 08:04:41
+omar Clocked-In at 2016/12/16 08:04:42
+---------------------------------------------------------------------
+omar Clocked-In at 2016/12/16 10:02:22
+omar Clocked-In at 2016/12/16 10:02:23
+---------------------------------------------------------------------

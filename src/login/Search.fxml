@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anc" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.SearchController">
+   <children>
+      <TableView fx:id="table" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="579.0" prefWidth="1280.0">
+         <columns>
+            <TableColumn fx:id="namecolumn" maxWidth="485.0" minWidth="125.0" prefWidth="370.0" text="Book Name" />
+            <TableColumn fx:id="isbncolumn" prefWidth="205.0" text="ISBN" />
+            <TableColumn fx:id="authorcolumn" prefWidth="279.0" text="Author" />
+            <TableColumn fx:id="publishercolumn" prefWidth="248.0" text="Publisher" />
+            <TableColumn fx:id="statuscolumn" prefWidth="177.0" text="Status" />
+         </columns>
+      </TableView>
+      <Button fx:id="borrow" layoutX="747.0" layoutY="604.0" mnemonicParsing="false" onAction="#borrowMethod" text="Borrow" />
+      <Button fx:id="goback" layoutX="1169.0" layoutY="657.0" mnemonicParsing="false" onAction="#mem" text="Go Back" />
+      <Button fx:id="refreash" layoutX="742.0" layoutY="651.0" mnemonicParsing="false" onAction="#refreashMethod" text="Refreash" />
+      <ComboBox fx:id="category" layoutX="431.0" layoutY="628.0" onAction="#isCat" prefWidth="150.0" promptText="Category" />
+   </children>
+</AnchorPane>

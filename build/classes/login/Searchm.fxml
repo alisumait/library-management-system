@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anc" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.SearchmController">
+   <children>
+      <TableView fx:id="table" editable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onSort="#isCat" prefHeight="584.0" prefWidth="1280.0">
+         <columns>
+            <TableColumn fx:id="namecolumn" maxWidth="485.0" minWidth="125.0" prefWidth="370.0" text="Book Name" />
+            <TableColumn fx:id="isbncolumn" prefWidth="205.0" text="ISBN" />
+            <TableColumn fx:id="authorcolumn" prefWidth="279.0" text="Author" />
+            <TableColumn fx:id="publishercolumn" prefWidth="248.0" text="Publisher" />
+            <TableColumn fx:id="statuscolumn" prefWidth="177.0" text="Status" />
+         </columns>
+      </TableView>
+      <Button fx:id="addb" layoutX="538.0" layoutY="655.0" mnemonicParsing="false" onAction="#addMethod" text="Add" />
+      <Button fx:id="goback" layoutX="1169.0" layoutY="654.0" mnemonicParsing="false" onAction="#lib" text="Go Back" />
+      <TextField fx:id="addbn" layoutX="65.0" layoutY="607.0" promptText="Book Name" />
+      <TextField fx:id="addisbn" layoutX="65.0" layoutY="654.0" promptText="ISBN" />
+      <TextField fx:id="addauthor" layoutX="316.0" layoutY="607.0" promptText="Author" />
+      <TextField fx:id="addpublisher" layoutX="316.0" layoutY="654.0" promptText="Publisher" />
+      <ComboBox fx:id="category" layoutX="538.0" layoutY="607.0" onAction="#isCat" prefWidth="150.0" promptText="Category" />
+      <Button fx:id="changestatus" layoutX="713.0" layoutY="654.0" mnemonicParsing="false" onAction="#changeStatus" text="Change Status" />
+      <Button fx:id="deleteb" layoutX="625.0" layoutY="655.0" mnemonicParsing="false" onAction="#deleteMethod" text="Delete" />
+      <Button fx:id="refreash" layoutX="732.0" layoutY="607.0" mnemonicParsing="false" onAction="#refreashMethod" text="Refreash" />
+      <Button fx:id="addcat" layoutX="861.0" layoutY="655.0" mnemonicParsing="false" onAction="#addCat" text="Add Category" />
+      <TextField fx:id="newcat" layoutX="861.0" layoutY="607.0" prefHeight="31.0" prefWidth="269.0" promptText="New Category" />
+      <Button fx:id="deletecat" layoutX="1003.0" layoutY="655.0" mnemonicParsing="false" onAction="#deleteCat" prefHeight="31.0" prefWidth="127.0" text="Delete Category" />
+   </children>
+</AnchorPane>
